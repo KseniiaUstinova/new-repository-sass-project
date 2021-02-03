@@ -1,0 +1,25 @@
+/* titles start */
+.secondary-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17em;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var($title-color);
+}
+
+.is-hidden {
+  display: none;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* titles end */

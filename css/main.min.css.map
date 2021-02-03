@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AGCA,AAAA,gBAAgB,AAAC,CACf,aAAa,CAAE,IAAI,CAEnB,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,MAAM,CAClB,cAAc,CAAE,MAAM,CAEtB,KAAK,CAAE,YAAiB,CACzB,AAED,AAAA,UAAU,AAAC,CACT,OAAO,CAAE,IAAI,CACd,AAED,AAAA,WAAW,AAAC,CACV,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,MAAM,CACnB,cAAc,CAAE,MAAM,CACtB,cAAc,CAAE,SAAS,CAC1B,AHXD,AAAA,IAAI,AAAC,CACH,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,OAAO,AAAC,CACP,UAAU,CAAE,OAAO,CACpB,AAED,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,MAAM,CACnB,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,MAAM,CAEtB,KAAK,CAAE,YAAwB,CAE/B,QAAQ,CAAE,QAAQ,CACnB,AAED,AAAA,EAAE,AAAC,CACD,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,EAAE,CACF,EAAE,CACF,EAAE,CACF,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AAED,AAAA,GAAG,AAAC,CACF,OAAO,CAAE,KAAK,CACf,AAED,AAAA,UAAU,AAAC,CACT,KAAK,CAAE,MAAM,CACb,WAAW,CAAE,IAAI,CACjB,YAAY,CAAE,IAAI,CAClB,OAAO,CAAE,MAAM,CAChB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_colors.scss",
+        "../sass/utils/_mixins.scss",
+        "../sass/utils/_placeholders.scss",
+        "../sass/components/_header.scss",
+        "../sass/components/_hero.scss",
+        "../sass/components/_advantages.scss",
+        "../sass/components/_activities.scss",
+        "../sass/components/_team.scss",
+        "../sass/components/_customers.scss",
+        "../sass/components/_footer.scss",
+        "../sass/components/_portfolio.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
