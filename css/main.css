@@ -107,6 +107,11 @@ button {
   background: rgba(0, 0, 0, 0.2);
 }
 
+.backdrop .is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal {
   position: absolute;
   left: 50%;
@@ -289,6 +294,18 @@ textarea.inputs:not(:placeholder-shown) ~ label {
 
 /* Modal ends */
 /* Header starts */
+.header {
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 1px;
+  background-color: #ececec;
+}
+
 .header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -299,7 +316,6 @@ textarea.inputs:not(:placeholder-shown) ~ label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: #777373 10px;
 }
 
 .nav {
