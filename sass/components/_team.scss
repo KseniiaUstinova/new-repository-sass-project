@@ -1,0 +1,84 @@
+/* our-team starts */
+.our-team {
+  background-color: $our-team-background;
+}
+
+.our-team .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 94px;
+}
+
+.our-team-list {
+  display: flex;
+}
+
+.our-team-list > li {
+  background-color: $white-color;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.our-team-list li + li {
+  margin-left: 30px;
+}
+
+.social-net-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.social-net-list li + li {
+  margin-left: 10px;
+}
+
+.social-links {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  fill: #afb1b8;
+}
+
+.social-icon {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-links:hover,
+.social-links:focus {
+  background-color: $accent-color;
+  border-radius: 50%;
+}
+
+.social-links:hover .social-icon,
+.social-links:focus .social-icon {
+  fill: $white-color;
+}
+
+.member {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.member.name {
+  padding-top: 30px;
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  color: $title-color;
+}
+
+.member.job {
+  margin-bottom: 16px;
+}
+/* our-team ends */

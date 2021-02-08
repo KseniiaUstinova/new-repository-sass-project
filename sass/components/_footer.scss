@@ -1,0 +1,117 @@
+/* footer starts */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+
+  padding-top: 48px;
+  padding-bottom: 28px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .logo {
+  margin: 0;
+  color: $white-color;
+}
+
+.footer address {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+
+  font-style: normal;
+}
+
+.geography {
+  color: $white-color;
+}
+
+.footer .mail,
+.footer .phone {
+  margin-top: 10px;
+
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.follow-us {
+  margin-left: 69px;
+}
+
+.footer .secondary-title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14em;
+  text-transform: uppercase;
+  text-align: left;
+
+  color: $white-color;
+}
+
+.follow-us-links {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: $white-color;
+}
+
+.mailing {
+  margin-left: auto;
+}
+
+.input {
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+
+  background-color: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: $white-color;
+}
+
+.input::placeholder {
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sign {
+  margin-top: 18px;
+  padding-bottom: 21px;
+
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 2em;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.mailing .button {
+  @extend %button;
+
+  font-weight: 900;
+}
+
+.button-name-footer {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px 28px;
+}
+
+.button-footer-icon {
+  margin-left: 10px;
+}
+/* footer ends */

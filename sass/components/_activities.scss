@@ -1,0 +1,33 @@
+/* activities start */
+.our-activities .container {
+  margin-bottom: 94px;
+}
+
+.our-activities-list {
+  display: flex;
+}
+
+.our-activities-list li + li {
+  margin-left: 30px;
+}
+
+.our-activities-list li {
+  position: relative;
+}
+
+.our-activities .item-title {
+  position: absolute;
+  width: 100%;
+  transform: translateY(-100%);
+  padding: 27px 0;
+
+  text-align: center;
+
+  color: $white-color;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.our-activities a {
+  text-decoration: none;
+}
+/* activities end */
