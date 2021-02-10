@@ -12,7 +12,10 @@
 }
 
 .is-hidden {
-  display: none;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  top: -100%;
 }
 
 .item-title {

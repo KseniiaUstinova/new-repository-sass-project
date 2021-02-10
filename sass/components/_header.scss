@@ -49,6 +49,10 @@
   display: flex;
   margin: 0;
   padding: 0;
+
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 }
 
 .site-nav li + li {
@@ -66,6 +70,12 @@
   color: $title-color;
   text-decoration: none;
   font-style: normal;
+}
+
+.address {
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 }
 
 .address a + a {
