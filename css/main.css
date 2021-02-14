@@ -327,6 +327,13 @@ textarea.inputs:not(:placeholder-shown) ~ label {
           align-items: center;
 }
 
+@media screen and (min-width: 481px) {
+  .button-header-menu,
+  .button-header-close {
+    display: none;
+  }
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,15 +341,14 @@ textarea.inputs:not(:placeholder-shown) ~ label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14em;
-  letter-spacing: 0.02em;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .logo {
   display: inline-block;
-  margin-right: 86px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -356,18 +362,43 @@ textarea.inputs:not(:placeholder-shown) ~ label {
   color: #2196f3;
 }
 
+.is-open {
+  opacity: 1;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 239px);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-menu.is-open {
+    display: none;
+  }
+}
+
+nav {
+  display: inline-block;
+}
+
 .site-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 480px) {
-  .site-nav {
-    display: none;
-  }
 }
 
 .site-nav li + li {
@@ -390,14 +421,8 @@ textarea.inputs:not(:placeholder-shown) ~ label {
   font-style: normal;
 }
 
-@media screen and (max-width: 480px) {
-  .address {
-    display: none;
-  }
-}
-
-.is-open {
-  display: block;
+.address {
+  display: inline-block;
 }
 
 .address a + a {

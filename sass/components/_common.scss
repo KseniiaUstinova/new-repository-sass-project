@@ -59,3 +59,32 @@ button {
   display: inline-block;
   margin: 10px 28px;
 }
+
+/* titles start */
+.secondary-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17em;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: $title-color;
+}
+
+.is-hidden {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  top: -100%;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* titles end */
