@@ -1,18 +1,32 @@
 /* advantages start */
 .advantages .container {
-  margin-bottom: 94px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 94px;
+  }
 }
 
 .advantages-list {
-  display: flex;
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
 }
 
 .advantages-list li {
-  width: 270px;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 270px;
+  }
 }
 
 .advantages-list li + li {
-  margin-left: 30px;
+  @media screen and (min-width: 1280px) {
+    margin-left: 30px;
+  }
 }
 
 .icon-container {
@@ -28,8 +42,12 @@
 }
 
 .advantages .item-title {
+  text-align: center;
   margin-bottom: 10px;
-
   color: $title-color;
+
+  @media screen and (min-width: 1280px) {
+    text-align: initial;
+  }
 }
 /* advantages end */

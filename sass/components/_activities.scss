@@ -1,6 +1,10 @@
 /* activities start */
 .our-activities .container {
   margin-bottom: 94px;
+
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 }
 
 .our-activities-list {
