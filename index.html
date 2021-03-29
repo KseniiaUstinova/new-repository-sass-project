@@ -220,8 +220,25 @@
 
           <ul class="our-team-list">
             <li>
-              <img class="team-photo comp" src="./images/john-smith/john-smith-desctop1x.jpg" alt="Photo of John Smith" />
-              <img class="team-photo phone" src="./images/john-smith/john-smith-phone1x.jpg" alt="Photo of John Smith" /><h3 class="member name">John Smith</h3>
+              <picture class="team-photo comp">
+                <source srcset="./images/john-smith/john-smith-desctop1x.webp 480w, ./images/john-smith/john-smith-desctop2x.webp 768w, ./images/john-smith/john-smith-desctop3x.webp 1280w" type="image/webp"/>
+                <img srcset="./images/john-smith/john-smith-desctop1x.jpg 480w, ./images/john-smith/john-smith-desctop2x.jpg 768w, ./images/john-smith/john-smith-desctop3x.jpg 1280w" src="./images/john-smith/john-smith-desctop1x.jpg" alt="Photo of John Smith"/>
+              </picture>
+              <picture class="team-photo phone">
+                <source
+                  srcset="./images/john-smith/john-smith-phone3x.webp 1280w, 
+                  ./images/john-smith/john-smith-phone2x.webp 768w, 
+                  ./images/john-smith/john-smith-phone1x.webp 480w                  
+                  "
+                  type="image/webp" />
+                <img
+                  srcset="./images/john-smith/john-smith-phone1x.jpg 480w, 
+                  ./images/john-smith/john-smith-phone2x.jpg 768w, 
+                  ./images/john-smith/john-smith-phone3x.jpg 1280w"
+                  src="./images/john-smith/john-smith-phone1x.jpg"
+                  alt="Photo of John Smith" />
+              </picture>
+              <h3 class="member name">John Smith</h3>
               <p class="member job">Product Designer</p>
               <ul class="social-net-list">
                 <li>
