@@ -220,18 +220,34 @@
 
           <ul class="our-team-list">
             <li>
-              <picture class="team-photo comp">
-                <source srcset="./images/john-smith/john-smith-desctop1x.webp 480w, ./images/john-smith/john-smith-desctop2x.webp 768w, ./images/john-smith/john-smith-desctop3x.webp 1280w" type="image/webp"/>
-                <img srcset="./images/john-smith/john-smith-desctop1x.jpg 480w, ./images/john-smith/john-smith-desctop2x.jpg 768w, ./images/john-smith/john-smith-desctop3x.jpg 1280w" src="./images/john-smith/john-smith-desctop1x.jpg" alt="Photo of John Smith"/>
-              </picture>
-              <picture class="team-photo phone">
-                <source
+              <picture>
+                <source class="team-photo comp" srcset="./images/john-smith/john-smith-desctop3x.webp 1280w, 
+                  ./images/john-smith/john-smith-desctop2x.webp 768w, 
+                  ./images/john-smith/john-smith-desctop1x.webp 480w                  
+                  " type="image/webp" />
+                <img class="team-photo comp" srcset="./images/john-smith/john-smith-desctop1x.jpg 480w, 
+                  ./images/john-smith/john-smith-desctop2x.jpg 768w, 
+                  ./images/john-smith/john-smith-desctop3x.jpg 1280w" src="./images/john-smith/john-smith-desctop1x.jpg"
+                  alt="Photo of John Smith" />
+                </picture>
+                <picture>
+                  <source class="team-photo tablet" srcset="./images/john-smith/john-smith-tablet3x.webp 1280w, 
+                  ./images/john-smith/john-smith-tablet2x.webp 768w, 
+                  ./images/john-smith/john-smith-tablet1x.webp 480w                  
+                                  " type="image/webp" />
+                  <img class="team-photo tablet" srcset="./images/john-smith/john-smith-tablet1x.jpg 480w, 
+                                  ./images/john-smith/john-smith-tablet2x.jpg 768w, 
+                                  ./images/john-smith/john-smith-tablet3x.jpg 1280w"
+                    src="./images/john-smith/john-smith-tablet1x.jpg" alt="Photo of John Smith" />
+                </picture>
+              <picture>
+                <source class="team-photo phone"
                   srcset="./images/john-smith/john-smith-phone3x.webp 1280w, 
                   ./images/john-smith/john-smith-phone2x.webp 768w, 
                   ./images/john-smith/john-smith-phone1x.webp 480w                  
                   "
                   type="image/webp" />
-                <img
+                <img class="team-photo phone"
                   srcset="./images/john-smith/john-smith-phone1x.jpg 480w, 
                   ./images/john-smith/john-smith-phone2x.jpg 768w, 
                   ./images/john-smith/john-smith-phone3x.jpg 1280w"
@@ -272,11 +288,40 @@
               </ul>
             </li>
             <li>
-              <img
-                class="team-photo comp" src="./images/marta-stewart/marta-stewart-desktop1x.jpg"
-                alt="Photo of Marta Stewart"
-              />
-              <img class="team-photo phone" src="./images/marta-stewart/marta-stewart-phone1x.jpg" alt="Photo of Marta Stewart" />
+              <picture>
+                <source class="team-photo comp" srcset="./images/marta-stewart/marta-stewart-desktop3x.webp 1280w, 
+                                ./images/marta-stewart/marta-stewart-desktop2x.webp 768w, 
+                                ./images/marta-stewart/marta-stewart-desktop1x.webp 480w                  
+                                " type="image/webp" />
+                <img class="team-photo comp" srcset="./images/marta-stewart/marta-stewart-desktop1x.jpg 480w, 
+                                ./images/marta-stewart/marta-stewart-desktop2x.jpg 768w, 
+                                ./images/marta-stewart/marta-stewart-desktop3x.jpg 1280w"
+                  src="./images/marta-stewart/marta-stewart-desktop1x.jpg" alt="Photo of Marta Stewart" />
+              </picture>
+              <picture>
+                <source class="team-photo tablet" srcset="./images/marta-stewart/marta-stewart-tablet3x.webp 1280w, 
+                                ./images/marta-stewart/marta-stewart-tablet2x.webp 768w, 
+                                ./images/marta-stewart/marta-stewart-tablet1x.webp 480w                  
+                                " type="image/webp" />
+                <img class="team-photo tablet" srcset="./images/marta-stewart/marta-stewart-tablet1x.jpg 480w, 
+                                ./images/marta-stewart/marta-stewart-tablet2x.jpg 768w, 
+                                ./images/marta-stewart/marta-stewart-tablet3x.jpg 1280w"
+                  src="./images/marta-stewart/marta-stewart-tablet1x.jpg" alt="Photo of Marta Stewart" />
+              </picture>
+              <picture>
+                <source class="team-photo phone"
+                  srcset="./images/marta-stewart/marta-stewart-phone3x.webp 1280w, 
+                  ./images/marta-stewart/marta-stewart-phone2x.webp 768w, 
+                  ./images/marta-stewart/marta-stewart-phone1x.webp 480w                  
+                  "
+                  type="image/webp" />
+                <img class="team-photo phone"
+                  srcset="./images/marta-stewart/marta-stewart-phone1x.jpg 480w, 
+                  ./images/marta-stewart/marta-stewart-phone2x.jpg 768w, 
+                  ./images/marta-stewart/marta-stewart-phone3x.jpg 1280w"
+                  src="./images/marta-stewart/marta-stewart-phone1x.jpg"
+                  alt="Photo of Marta Stewart" />
+              </picture>
               <h3 class="member name">Marta Stewart</h3>
               <p class="member job">Frontend Developer</p>
               <ul class="social-net-list">
@@ -311,11 +356,37 @@
               </ul>
             </li>
             <li>
-              <img
-                class="team-photo comp" src="./images/robert-jakis/robert-jakis.-desctop1x.jpg"
-                alt="Photo of Robert Jakis"
-              />
-              <img class="team-photo phone" src="./images/robert-jakis/robert-jakis-phone1x.jpg" alt="Photo of Robert Jakis" />
+              
+              <picture>
+                <source class="team-photo comp" srcset="./images/robert-jakis/robert-jakis-desctop3x.webp 1280w, 
+                                              ./images/robert-jakis/robert-jakis-desctop2x.webp 768w, 
+                                              ./images/robert-jakis/robert-jakis-desctop1x.webp 480w                  
+                                              " type="image/webp" />
+                <img class="team-photo comp" srcset="./images/robert-jakis/robert-jakis-desctop1x.jpg 480w, 
+                                              ./images/robert-jakis/robert-jakis-desctop2x.jpg 768w, 
+                                              ./images/robert-jakis/robert-jakis-desctop3x.jpg 1280w"
+                  src="./images/robert-jakis/robert-jakis-desctop1x.jpg" alt="Photo of Robert Jakis" />
+              </picture>
+              <picture>
+                <source class="team-photo tablet" srcset="./images/robert-jakis/robert-jakis-tablet3x.webp 1280w, 
+                                                            ./images/robert-jakis/robert-jakis-tablet2x.webp 768w, 
+                                                            ./images/robert-jakis/robert-jakis-tablet1x.webp 480w                  
+                                                            " type="image/webp" />
+                <img class="team-photo tablet" srcset="./images/robert-jakis/robert-jakis-tablet1x.jpg 480w, 
+                                                            ./images/robert-jakis/robert-jakis-tablet2x.jpg 768w, 
+                                                            ./images/robert-jakis/robert-jakis-tablet3x.jpg 1280w"
+                  src="./images/robert-jakis/robert-jakis-tablet1x.jpg" alt="Photo of Robert Jakis" />
+              </picture>
+              <picture>
+                <source class="team-photo phone" srcset="./images/robert-jakis/robert-jakis-phone3x.webp 1280w, 
+                                ./images/robert-jakis/robert-jakis-phone2x.webp 768w, 
+                                ./images/robert-jakis/robert-jakis-phone1x.webp 480w                  
+                                " type="image/webp" />
+                <img class="team-photo phone" srcset="./images/robert-jakis/robert-jakis-phone1x.jpg 480w, 
+                                ./images/robert-jakis/robert-jakis-phone2x.jpg 768w, 
+                                ./images/robert-jakis/robert-jakis-phone3x.jpg 1280w"
+                  src="./images/robert-jakis/robert-jakis-phone1x.jpg" alt="Photo of Robert Jakis" />
+              </picture>
               <h3 class="member name">Robert Jakis</h3>
               <p class="member job">Marketing</p>
               <ul class="social-net-list">
@@ -350,8 +421,36 @@
               </ul>
             </li>
             <li>
-              <img class="team-photo comp" src="./images/martin-doe/martin-doe-desctop1x.jpg" alt="Photo of Martin Doe" />
-              <img class="team-photo phone" src="./images/martin-doe/martin-doe-phone1x.jpg" alt="Photo of Martin Doe" />
+             <picture>
+                <source class="team-photo comp" srcset="./images/martin-doe/martin-doe-desctop3x.webp 1280w, 
+                                                            ./images/martin-doe/martin-doe-desctop2x.webp 768w, 
+                                                            ./images/martin-doe/martin-doe-desctop1x.webp 480w                  
+                                                            " type="image/webp" />
+                <img class="team-photo comp" srcset="./images/martin-doe/martin-doe-desctop1x.jpg 480w, 
+                                                            ./images/martin-doe/martin-doe-desctop2x.jpg 768w, 
+                                                            ./images/martin-doe/martin-doe-desctop3x.jpg 1280w"
+                  src="./images/martin-doe/martin-doe-desctop1x.jpg" alt="Photo of Martin Doe" />
+              </picture>
+              <picture>
+                <source class="team-photo tablet" srcset="./images/martin-doe/martin-doe-tablet3x.webp 1280w, 
+                                                            ./images/martin-doe/martin-doe-tablet2x.webp 768w, 
+                                                            ./images/martin-doe/martin-doe-tablet1x.webp 480w                  
+                                                            " type="image/webp" />
+                <img class="team-photo tablet" srcset="./images/martin-doe/martin-doe-tablet1x.jpg 480w, 
+                                                            ./images/martin-doe/martin-doe-tablet2x.jpg 768w, 
+                                                            ./images/martin-doe/martin-doe-tablet3x.jpg 1280w"
+                  src="./images/martin-doe/martin-doe-tablet1x.jpg" alt="Photo of Martin Doe" />
+              </picture>
+              <picture>
+                <source class="team-photo phone" srcset="./images/martin-doe/martin-doe-phone3x.webp 1280w, 
+                                              ./images/martin-doe/martin-doe-phone2x.webp 768w, 
+                                              ./images/martin-doe/martin-doe-phone1x.webp 480w                  
+                                              " type="image/webp" />
+                <img class="team-photo phone" srcset="./images/martin-doe/martin-doe-phone1x.jpg 480w, 
+                                              ./images/martin-doe/martin-doe-phone2x.jpg 768w, 
+                                              ./images/martin-doe/martin-doe-phone3x.jpg 1280w"
+                  src="./images/martin-doe/martin-doe-phone1x.jpg" alt="Photo of Martin Doe" />
+              </picture>
               <h3 class="member name">Martin Doe</h3>
               <p class="member job">UI Designer</p>
               <ul class="social-net-list">
