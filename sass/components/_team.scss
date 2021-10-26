@@ -41,20 +41,23 @@
 .team-photo {
   max-width: 100%;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
+    &.tablet,
     &.comp {
       display: none;
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1279px) {
+    &.phone,
     &.comp {
       display: none;
     }
   }
 
   @media screen and (min-width: 1280px) {
-    &.phone {
+    &.phone,
+    &.tablet {
       display: none;
     }
   }

@@ -676,20 +676,20 @@ nav {
   max-width: 100%;
 }
 
-@media screen and (max-width: 480px) {
-  .team-photo.comp {
+@media screen and (max-width: 767px) {
+  .team-photo.tablet, .team-photo.comp {
     display: none;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .team-photo.comp {
+@media screen and (max-width: 1279px) {
+  .team-photo.phone, .team-photo.comp {
     display: none;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .team-photo.phone {
+  .team-photo.phone, .team-photo.tablet {
     display: none;
   }
 }
